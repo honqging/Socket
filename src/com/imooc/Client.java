@@ -17,7 +17,7 @@ public class Client {
 			
 			OutputStream os = socket.getOutputStream();
 			PrintWriter	pw = new PrintWriter(os);
-			pw.write("用户名:addddddddddmin, 密码:123");
+			pw.write("用户名:ajflks, 密码:123");
 			pw.flush();
 			socket.shutdownOutput();
 			
